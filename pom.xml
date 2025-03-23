@@ -25,7 +25,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <langchain4j.version>0.36.2</langchain4j.version>
+        <langchain4j.version>1.0.0-beta1</langchain4j.version>
     </properties>
     <dependencies>
         <dependency>
@@ -171,7 +171,7 @@
             <artifactId>langchain4j-document-parser-apache-poi</artifactId>
             <version>${langchain4j.version}</version>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-dashscope</artifactId>
             <version>${langchain4j.version}</version>
@@ -180,7 +180,7 @@
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-qianfan</artifactId>
             <version>${langchain4j.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j-ollama</artifactId>
